@@ -10,7 +10,7 @@ export default function Header({ filters, filter, onFilterChange }) {
             <button
               className={`${styles.filter} ${
                 filter === value && styles.selected
-              } `}
+              }`}
               onClick={() => onFilterChange(value)}
             >
               {value}

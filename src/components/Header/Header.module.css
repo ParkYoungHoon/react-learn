@@ -25,9 +25,9 @@
     opacity: 1;
 }
 
-.filter.filter {
+.filter.selected::after {
     content: '';
     display: block;
     margin-top: 0.2rem;
-    border: 1px solid var(--colot-text);
+    border: 1px solid var(--color-text);
 }
